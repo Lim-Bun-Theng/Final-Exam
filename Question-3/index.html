@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Last Question</h1>
+
+    <script>
+            'use strict';
+
+    try {
+        // Replace 'Sok Dara' with your full name
+        console.log('Student Name: Lim BunTheng');
+        
+        let x = 10; // Declare 'x' before assigning a value
+        console.log(x); // Output the value of 'x'
+    } catch (error) {
+        console.error(error.message); // Catch and display errors
+    }
+
+    function demo() {
+        try {
+            let y = 20; // Declare 'y' before assigning a value
+            console.log(y); // Output the value of 'y'
+        } catch (error) {
+            console.error(error.message); // Catch and display errors
+        }
+    }
+
+    demo();
+
+    try {
+        eval('var z = 50; delete z;'); // 'delete' cannot be used on variables declared with var
+    } catch (error) {
+        console.error(error.message); // Catch and display errors
+    }
+
+    </script>
+</body>
+</html>
